@@ -36,9 +36,9 @@ void test_case(){
 }
 
 int main(){
-    ios::sync_with_stdio(nullptr);
-    cin.tie(false);
-    cout.tie(false);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
     int t;
     t=1;
     cin>>t;
